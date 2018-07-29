@@ -70,6 +70,9 @@ register(require('./trip/tripPane.js'))
 
 register(require('./imagePane.js')) // Basic image view
 register(require('./playlist/playlistPane.js')) // Basic playlist view
+register(require('./wallet/wallet.js')) // Basic wallet view
+register(require('./wallet/creditChain.js')) // Basic credits view
+register(require('./wallet/ledger.js')) // Basic ledger view
 
 register(require('./video/videoPane.js')) // Video clip player
 register(require('./audio/audioPane.js')) // Audio clip player
