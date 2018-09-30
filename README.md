@@ -7,7 +7,7 @@ They don't tile like window panes necessarily, but one pane can involve other pa
 objects related to the main object, in all kinds of creative ways. You can give the sub-pane a bit of 
 HTML DOM element to work in, and the data object, and it does the rest. 
 
-You can explicitly invoke a specific sub-pane, or you can just provide a DOM element to contain it, 
+You can explicitly invoke a specific sub-pane, or you can just provide a DOM element to contain it, and
 ask the pane system to pick the appropriate pane.  It does this by calling each potential pane in order
 with the object, and asking whether it want to. Typically the pane chosen is the most specific pane, 
 so typically a hand-written user interface will be chosen over a generic machine-generated one.
