@@ -2,7 +2,7 @@
 A set of core solid-compatible applets based on solid-ui
 
 These are a set of interlinked applications, or parts of applications, 
-which called 'panes' -- as in parts of a window.  A pane displays a data object of certain class using part of the window.
+which are called 'panes' -- as in parts of a window.  A pane displays a data object of certain class using part of the window.
 They don't tile like window panes necessarily, but one pane can involve other panes to display
 objects related to the main object, in all kinds of creative ways. You can give the sub-pane a bit of 
 HTML DOM element to work in, and the data object, and it does the rest. 
